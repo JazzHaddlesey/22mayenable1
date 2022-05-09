@@ -1,6 +1,5 @@
 tasty biscuits
 groovy movies
-<<<<<<< HEAD
 nugget boi
 nugget man
 
