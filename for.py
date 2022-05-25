@@ -8,13 +8,13 @@
 # print(total)
 
 
-dict1 = {1:"tim", 2:"tom", 3:"tam"}
+# dict1 = {1:"tim", 2:"tom", 3:"tam"}
 
-for key, name in dict1.itmes():
-  if name == "tom":
-      continue
+# for key, name in dict1.itmes():
+#   if name == "tom":
+#       continue
 
-  print((str(key)) + ": " + name)
+#   print((str(key)) + ": " + name)
 
 
 # for i in range(1, 6):
@@ -22,6 +22,6 @@ for key, name in dict1.itmes():
 #        print(f"{i} x {j} = {i * j}")
 
 
-# for i in range(5, 11):
-#     print(i)
+for i in range(10, 21, 2):
+    print(i)
 
