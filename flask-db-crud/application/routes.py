@@ -2,6 +2,10 @@ from sqlalchemy import asc
 from application import app, db
 from application.models import Games
 
+@app.route('/')
+def home():
+    return "Hello"
+
 @app.route('/add')
 def add():
     new_game = Games(name = input("New Game"))
